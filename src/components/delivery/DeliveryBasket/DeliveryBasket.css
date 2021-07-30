@@ -1,0 +1,135 @@
+.deliveryBasket {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deliveryBasket .deliveryBasket-details {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryBasket .deliveryBasket-final {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryBasket .deliveryBasket-details .deliveryBasket-table tbody tr td {
+    height: 100%;
+}
+
+.deliveryBasket .deliveryBasket-details .deliveryBasket-table tbody tr td img {
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryBasket .deliveryBasket-details .deliveryBasket-table tbody tr td button {
+    border-radius: 100%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #868686;
+    transition: 0.5s linear;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryBasket .deliveryBasket-details .deliveryBasket-table tbody tr td button:hover {
+    background-color: #555;
+}
+
+.deliveryBasket .deliveryBasket-details .deliveryBasket-table tbody tr td button i {
+    margin: 0;
+    color: white;
+}
+
+.deliveryBasket .deliveryBasket-final .deliveryBasket-final-card {
+    width: 200px;
+}
+
+.deliveryBasket .deliveryBasket-final .deliveryBasket-final-card .deliveryBasket-final-card-header {
+    padding: 10px;
+    border-bottom: 1px solid #868686;
+}
+
+.deliveryBasket .deliveryBasket-final .deliveryBasket-final-card .deliveryBasket-final-card-header h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.deliveryBasket .deliveryBasket-final .deliveryBasket-final-card .deliveryBasket-final-card-content {
+    padding: 10px;
+    border-bottom: 1px solid #868686;
+}
+
+.deliveryBasket .deliveryBasket-final .deliveryBasket-final-card .deliveryBasket-final-card-content p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.deliveryBasket .deliveryBasket-final .deliveryBasket-final-card .deliveryBasket-final-card-footer {
+    padding: 10px;
+}
+
+.deliveryBasket .deliveryBasket-final .deliveryBasket-final-card .deliveryBasket-final-card-footer button {
+    border-radius: 20px;
+    background-color: olivedrab;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px 24px 10px 24px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.deliveryBasket .deliveryBasket-final .deliveryBasket-final-card .deliveryBasket-final-card-footer button:hover {
+    background-color: rgb(67, 87, 27);
+}
+
+.deliveryBasket-tbody-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.deliveryBasket-tbody-flex input {
+    height: 40px;
+    width: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #868686;
+    border-radius: 5px;
+}
+
+.edit-quan-btn {
+    border-radius: 5px !important;
+    color: white;
+}
+
+@media only screen and (max-width: 641px) {
+    .deliveryBasket {
+        flex-direction: column;
+    }
+
+    .deliveryBasket .deliveryBasket-details .deliveryBasket-table thead {
+        display: none;
+    }
+}

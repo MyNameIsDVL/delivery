@@ -1,0 +1,50 @@
+.deliveryModalHome {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deliveryModalHome .deliveryModalHome-content {
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    margin: 10px;
+    background-color: white;
+    position: relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryModalHome .deliveryModalHome-content button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    transition: 0.5s linear;
+    cursor: pointer;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryModalHome .deliveryModalHome-content button:hover {
+    background-color: #555;
+}
+
+.deliveryModalHome .deliveryModalHome-content button i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

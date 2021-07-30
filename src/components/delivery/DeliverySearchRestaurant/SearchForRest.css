@@ -1,0 +1,82 @@
+.searchForRest {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.searchForRest .searchForRest-content {
+    flex-direction: column;
+    width: 100%;
+}
+
+.searchForRest .searchForRest-content .searchForRest-dvlul-autocompile {
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.searchForRest .searchForRest-content .searchForRest-dvlul-autocompile li {
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: 0.5s linear;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.searchForRest .searchForRest-content .searchForRest-dvlul-autocompile li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.searchForRest .searchForRest-params {
+    width: 100%;
+}
+
+.searchForRest .searchForRest-btn {
+    position: absolute !important;
+    right: 0 !important; 
+    top: 0  !important;
+    z-index: 2  !important;
+    border-radius: 5px  !important;
+    border: none  !important;
+    cursor: pointer  !important;
+    background-color: white  !important;
+    transition: 0.5s linear  !important;
+    width: 40px  !important;
+    height: 40px  !important;
+    margin-left: 10px  !important;
+    margin-top: 0  !important;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.searchForRest .searchForRest-btn:hover {
+    background-color: #555 !important;
+}
+
+.searchForRest .searchForRest-btn i {
+    padding-left: 5px !important;
+    color: #FB9300 !important;
+    font-size: 18px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}

@@ -1,0 +1,81 @@
+.deliverySliderMenu .swiper-slide {
+    width: 200px;
+    height: 200px;
+    background-color: #f7f4f3;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 5px !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.deliverySliderMenu .swiper-button-next, 
+.deliverySliderMenu .swiper-button-prev {
+    color: #FB9300 !important;
+}
+
+.deliverySliderMenu .swiper-slide .dvl-slide-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px !important;
+}
+
+.deliverySliderMenu .swiper-slide .dvl-slide-content img {
+    object-fit: cover;
+    width: 100% !important;
+    height: 100% !important;
+    position: relative !important;
+    border-radius: 5px !important;
+}
+
+.deliverySliderMenu .swiper-slide .dvl-slide-content .dvl-slide-bg-rgba {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s linear;
+    border-radius: 5px !important;
+}
+
+.deliverySliderMenu .swiper-slide .dvl-slide-content .dvl-slide-bg-rgba:hover {
+    background-color: transparent;
+}
+
+.deliverySliderMenu .swiper-slide .dvl-slide-content .dvl-slide-bg-rgba h3 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 1400px) {
+    .deliverySliderMenu .swiper-slide .dvl-slide-content .dvl-slide-bg-rgba h3 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .deliverySliderMenu .swiper-slide .dvl-slide-content .dvl-slide-bg-rgba h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 641px) {
+
+    .deliveryMenu h1 {
+        display: none;
+    }
+
+    .deliverySliderMenu {
+        display: none;
+    }
+}

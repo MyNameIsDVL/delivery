@@ -1,0 +1,99 @@
+.deliverySearchProducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deliverySearchProducts .deliveryMenu-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliverySearchProducts .deliveryMenu-card .deliveryMenu-card-img {
+    min-width: 300px;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliverySearchProducts .deliveryMenu-card .deliveryMenu-card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliverySearchProducts .deliveryMenu-card .deliveryMenu-card-content {
+    padding: 10px;
+}
+
+.deliverySearchProducts .deliveryMenu-card .deliveryMenu-card-content h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+}
+
+.deliverySearchProducts .deliveryMenu-card .deliveryMenu-card-content p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #868686;
+}
+
+.deliverySearchProducts .deliveryMenu-card .deliveryMenu-card-content span {
+    font-size: 20px;
+    color: #FB9300;
+}
+
+.deliverySearchProducts .deliveryMenu-card .deliveryMenu-card-content a {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.5s linear;
+    border-radius: 100%;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliverySearchProducts .deliveryMenu-card .deliveryMenu-card-content a:hover {
+    background-color: #555;
+}
+
+.deliverySearchProducts .deliveryMenu-card .deliveryMenu-card-content a i {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FB9300;
+}
+
+@media only screen and (max-width: 641px) {
+    .deliverySearchProducts .deliveryMenu-card {
+        flex-direction: column;
+    }
+
+    .deliverySearchProducts .deliveryMenu-card .deliveryMenu-card-img {
+        min-width: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+.deliveryOrders {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryOrders p span {
+    border-radius: 5px;
+    background-color: #FB9300;
+    color: white;
+    padding: 5px;
+}
+
+.deliveryOrders .deliveryOrders-product {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}

@@ -1,0 +1,58 @@
+.deliveryNotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deliveryNotFound .deliveryNotFound-not-found-box {
+    margin: 10px;
+    padding: 10px;
+}
+
+.deliveryNotFound-not-found-box-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deliveryNotFound .deliveryNotFound-not-found-box .deliveryNotFound-not-found-box-flex span {
+    font-size: 250px;
+    font-weight: 800;
+    margin: 0 10px 0 10px;
+}
+
+.deliveryNotFound .deliveryNotFound-not-found-box .deliveryNotFound-not-found-box-flex img {
+    border-radius: 100%;
+    background-color: black;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryNotFound .deliveryNotFound-not-found-box p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.deliveryNotFound .deliveryNotFound-not-found-box a {
+    color: #FB9300;
+    transition: 0.5s linear;
+}
+
+.deliveryNotFound .deliveryNotFound-not-found-box a:hover {
+    color: #a36713;
+}
+
+@media only screen and (max-width: 481px) {
+    .deliveryNotFound .deliveryNotFound-not-found-box .deliveryNotFound-not-found-box-flex span {
+        font-size: 120px;
+    }
+
+    .deliveryNotFound .deliveryNotFound-not-found-box .deliveryNotFound-not-found-box-flex img {
+        width: 100px;
+    }
+}

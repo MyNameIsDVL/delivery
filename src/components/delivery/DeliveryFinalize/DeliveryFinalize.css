@@ -1,0 +1,64 @@
+.deliveryFinalize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deliveryFinalize .deliveryFinalize-box {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryFinalize .deliveryFinalize-box .deliveryFinalize-box-fields {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deliveryFinalize .deliveryFinalize-box .deliveryFinalize-box-fields .box-fields {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.deliveryFinalize .deliveryFinalize-box .deliveryFinalize-box-fields .box-fields label {
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.deliveryFinalize .deliveryFinalize-box .deliveryFinalize-box-fields .box-fields input {
+    border-radius: 5px;
+    border: 1px solid #868686;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.deliveryFinalize .deliveryFinalize-box button {
+    height: 40px;
+    font-weight: 800;
+    background-color: olivedrab;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s linear;
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+}
+
+.deliveryFinalize .deliveryFinalize-box button:hover {
+    background-color: rgb(67, 87, 27);
+}

@@ -1,0 +1,26 @@
+.paymentThanks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paymentThanks h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.paymentThanks p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.paymentThanks a {
+    color: #FB9300;
+    font-size: 20px;
+    transition: 0.5s linear;
+}
+
+.paymentThanks a:hover {
+    color: #86530b;
+}

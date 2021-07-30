@@ -1,0 +1,219 @@
+.deliveryHome {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.deliveryHome .deliveryHome-title .deliveryHome-dvl-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.deliveryHome .deliveryHome-title .deliveryHome-dvl-flex h3 {
+    margin: 0;
+}
+
+.deliveryHome .deliveryHome-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-banner {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-banner img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .header {
+    border-bottom: 1px solid #868686;
+    padding: 10px;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .location .location-input-container {
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .location .location-input-container input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 10px 24px 10px 24px;
+    border: 1px solid #868686;
+    color: #868686;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .location .location-input-container button {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s linear;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .location .location-input-container button:hover {
+    background-color: #555;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .location .location-input-container button i {
+    color: #FB9300;
+    font-size: 18px;
+    margin-left: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .location-info {
+    padding: 10px;
+    border-top: 1px solid #868686;
+    border-bottom: 1px solid #868686;
+}
+
+.deliveryHome .deliveryHome-title {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.deliveryHome .deliveryHome-title h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.deliveryHome .deliveryHome-title .deliveryHome-dvl-flex h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.deliveryHome .deliveryHome-title .deliveryHome-dvl-flex span {
+    color: #FB9300;
+    margin-left: 5px;
+    font-weight: 800;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .bottom-info-payment {
+    padding: 10px;
+    border-top: 1px solid #868686;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .bottom-info-payment img {
+    width: 60px;
+    height: 30px;
+    margin: 10px;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .delivery-btn {
+    padding: 20px;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .delivery-btn button {
+    height: 40px;
+    font-weight: 800;
+    background-color: olivedrab;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s linear;
+    font-size: 18px;
+}
+
+.deliveryHome .deliveryHome-content .deliveryHome-content-delivery .delivery-btn button:hover {
+    background-color: rgb(67, 87, 27);
+}
+
+@media only screen and (max-width: 641px) {
+    .deliveryHome .deliveryHome-content {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .deliveryHome .deliveryHome-content .deliveryHome-content-banner {
+        width: 300px;
+        height: 300px;
+    }
+
+    .deliveryHome .deliveryHome-title h1 {
+        font-size: 30px;
+    }
+
+    .deliveryHome .deliveryHome-title .deliveryHome-dvl-flex h3 {
+        font-size: 16px;
+    }
+
+    .deliveryHome .deliveryHome-title .deliveryHome-dvl-flex span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .deliveryHome .deliveryHome-content .deliveryHome-content-banner {
+        width: 280px;
+        height: 280px;
+    }
+
+    .deliveryHome .deliveryHome-title h1 {
+        font-size: 30px;
+    }
+
+    .deliveryHome .deliveryHome-title .deliveryHome-dvl-flex h3 {
+        font-size: 16px;
+    }
+
+    .deliveryHome .deliveryHome-title .deliveryHome-dvl-flex span {
+        font-size: 12px;
+    }
+}

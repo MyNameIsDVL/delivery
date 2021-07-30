@@ -1,0 +1,158 @@
+.deliveryMenu .deliveryMenu-all-products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deliveryMenu .deliveryMenu-all-products .deliveryMenu-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-img {
+    max-width: 300px !important;
+    min-width: 300px !important;
+    height: 200px;
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content {
+    padding: 10px;
+}
+
+.deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content h3 {
+    color: #868686;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content p {
+    color: #9b9696;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px;
+    transition: 0.5s linear;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 5px;
+    border-top: 4px solid #9b9696;
+    border-left: 4px solid #9b9696;
+    background-color: #FB9300;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content a:hover {
+    background-color: rgb(126, 44, 14);
+}
+
+/* .deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: 4px solid #9b9696;
+    border-left: 4px solid #9b9696;
+    background-color: #FB9300;
+    border-bottom-left-radius: 20px;
+    transition: 0.5s linear;
+    border-top-right-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    cursor: pointer;
+}
+
+.deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content a:hover {
+    background-color: rgb(126, 44, 14);
+}
+
+.deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content a i {
+    color: white;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+@media only screen and (max-width: 1281px) {
+    .deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+
+    .deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content h3 {
+        font-size: 20px;
+    }
+
+    .deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content p {
+        font-size: 14px;
+    }
+
+    .deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content span {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 641px) {
+    .deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-img {
+        height: 400px;
+    }
+
+    .all-menu {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .deliveryMenu .deliveryMenu-all-products .deliveryMenu-card {
+        flex-direction: column;
+    }
+
+    .deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-img {
+        max-width: 100% !important;
+        min-width: 100% !important;
+        height: 200px;
+    }
+
+    .deliveryMenu .deliveryMenu-all-products .deliveryMenu-card .deliveryMenu-card-content p {
+        font-size: 14px;
+        width: 80%;
+    }
+}

@@ -1,0 +1,88 @@
+.deliveryProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deliveryProfile .deliveryProfile-box {
+    padding: 10px;
+    margin: 10px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryProfile .deliveryProfile-box form .deliveryProfile-form-field {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deliveryProfile .deliveryProfile-box form .deliveryProfile-form-field label {
+    text-align: left;
+}
+
+.deliveryProfile .deliveryProfile-box form .deliveryProfile-form-field input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #868686;
+    border-radius: 5px;
+    outline: none;
+}
+
+.deliveryProfile .deliveryProfile-box form button {
+    height: 40px;
+    font-weight: 800;
+    background-color: olivedrab;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s linear;
+    font-size: 18px;
+}
+
+.deliveryProfile .deliveryProfile-box form button:hover {
+    background-color: rgb(67, 87, 27);
+}
+
+.deliveryProfile .deliveryProfile-box .deliveryProfile-reset-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 10px 10px 10px;
+    position: relative;
+}
+
+.deliveryProfile .deliveryProfile-box .deliveryProfile-reset-password::before {
+    content: '';
+    background-color: #868686;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.deliveryProfile .deliveryProfile-box .deliveryProfile-reset-password button {
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #868686;
+    transition: 0.5s linear;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    cursor: pointer;
+}
+
+.deliveryProfile .deliveryProfile-box .deliveryProfile-reset-password button:hover {
+    background-color: #555151;
+}

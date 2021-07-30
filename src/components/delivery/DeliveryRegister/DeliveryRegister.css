@@ -1,0 +1,165 @@
+.deliveryRegister {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deliveryRegister .deliveryRegister-form {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryRegister .deliveryRegister-form .form {
+    margin: 10px;
+}
+
+.deliveryRegister .deliveryRegister-form .form a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #868686;
+    transition: 0.5s linear;
+}
+
+.deliveryRegister .deliveryRegister-form .form a:hover {
+    color: #FB9300;
+}
+
+.deliveryRegister .deliveryRegister-form .form button {
+    height: 40px;
+    font-weight: 800;
+    background-color: olivedrab;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s linear;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.deliveryRegister .deliveryRegister-form .form button:hover {
+    background-color: rgb(67, 87, 27);
+}
+
+.deliveryRegister .deliveryRegister-form .form .form-field {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.deliveryRegister .deliveryRegister-form .form .form-field label {
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.deliveryRegister .deliveryRegister-form .form .form-field input {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+    border: 1px solid #868686;
+}
+
+.deliveryRegister .deliveryRegister-form .form .form-field p i {
+    color: #FB9300;
+}
+
+.deliveryRegister .deliveryRegister-form .deliveryRegister-form-img {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deliveryRegister .deliveryRegister-form .deliveryRegister-form-img p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.deliveryRegister .deliveryRegister-form .deliveryRegister-form-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.deliveryRegister .deliveryRegister-form .form .form-field.dvl-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.deliveryRegister .deliveryRegister-form .form .form-field.dvl-flex p {
+    margin-left: 5px;
+}
+
+.deliveryRegister .deliveryRegister-form .form .form-field input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+}
+
+.deliveryRegister .deliveryRegister-form .form .form-field.pass_cont {
+    position: relative;
+}
+
+.deliveryRegister .deliveryRegister-form .form .form-field.pass_cont i {
+    color: #555;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.5s linear;
+}
+
+.deliveryRegister .deliveryRegister-form .form .form-field.pass_cont i:hover {
+    color: #888;
+}
+
+@media only screen and (max-width: 1025px) {
+    .deliveryRegister .deliveryRegister-form {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 641px) {
+    .deliveryRegister .deliveryRegister-form {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .deliveryRegister .deliveryRegister-form {
+        width: 100%;
+    }
+}
+
