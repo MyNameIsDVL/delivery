@@ -1,4 +1,4 @@
 # delivery
 DeliveryFoodAppProject
 
-Change the branch to see the code to master
+Change the branch to master to see the code.
